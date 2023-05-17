@@ -18,4 +18,5 @@ Additional Internal Requirements:
 
 Constraints:
 1. Maximum number of books that can be issued to a member = 5
-2. Maximum number of days for which book can be lended = 10
+2. Maximum number of days a book can be lended = 10
+**
