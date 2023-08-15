@@ -1,5 +1,7 @@
 # Observer Design Pattern
 
+[Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Observer%20Pattern/observer.py)
+
 ### 1. What is the Observer Design Pattern?
 
 The Observer design pattern is a way to make objects listen for and react to changes in other objects. It's like having a "news subscription" where you get updates whenever something you're interested in changes. In this pattern, there are two main parts: **observers** who want to know about changes, and **observables** (or subjects) that notify the observers when changes happen.

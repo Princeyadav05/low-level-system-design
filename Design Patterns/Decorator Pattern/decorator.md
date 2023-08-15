@@ -1,5 +1,7 @@
 # Decorator Design Pattern
 
+[Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Decorator%20Pattern/decorator.py)
+
 ### 1. What is it? What type of design pattern?
 
 The **Decorator design pattern** is a structural pattern in software design. It allows you to add new behaviors or responsibilities to objects dynamically without changing their code. This pattern is all about wrapping objects to alter their functionality.

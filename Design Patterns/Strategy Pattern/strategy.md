@@ -1,5 +1,7 @@
 # Strategy Design Pattern
 
+[Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Strategy%20Pattern/strategy.py)
+
 ### 1. What is the Strategy Design Pattern?
 
 **Definition**: The Strategy Design Pattern is a way to organize your code by defining a family of interchangeable algorithms or behaviors and making them easily switchable.
