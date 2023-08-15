@@ -10,7 +10,10 @@ class Library:
 
     books_catalog.add_book(book1);
     books_catalog.add_book(book2);
+    books_catalog.add_book(book1);
 
-    print("Library Books Catalogue:", books_catalog.get_all_books());
+    books_catalog.get_all_books();
+
+    books_catalog.search_title("The Power of Habit");
 
 

@@ -1,0 +1,50 @@
+Library Management System in Python - Low Level Design
+
+Main Interactors - System (Admin), Libarian, Member
+
+Main Functional Requirements:
+1. Checkout Book (Issue)
+2. Renew Book
+3. Return Book
+
+Additional Internal Requirements:
+4. Reserve Book
+5. Search Book (By Author, Title, Subject or PublicationDate)
+6. Registration 
+7. CRUD Book - Add/Edit/Delete a BookItem
+
+Constraints:
+1. Maxm number of books that can be issued to a member = 5
+2. Maxm number of days for which book can be lended = 15
+
+
+Flow for Main Functional Requirements -
+
+# Checkout/Issue a Book:
+1. Check if the Book is available 
+   else Return and show error msg
+2. Check the limit of the member is not reached
+   else Return and show error msg
+3. Check if the book has been reserved (by the same member -> mark 'Completed')
+   if reserved by any other member - Return and show error msg
+4. Create checkout transaction for the book (Third Party Payment Integration if needed)
+5. Update the status of the Book ('Loaned')
+6. Increment the number of books issued to the member.
+
+
+# Return a Book:
+1. Check if the book is returned within a due date
+2. If not - Calculate & Collect fine - Create Fine transaction (Third Party Payment Integration if needed)
+3. Decrement the number of books issued to the member.
+4. Check if the book is reserved - Mark it's status to 'Reserved'
+   else - Mark it 'Available'
+
+
+# Renew a Book:
+1. Check if the book is returned within a due date.
+2. If not - Calculate and Collect fine
+3. Check if the book is reserved - Mark it's status to 'Reserved' & Return and show error msg
+   else - Create book Checkout transaction with new due date.
+
+
+           
