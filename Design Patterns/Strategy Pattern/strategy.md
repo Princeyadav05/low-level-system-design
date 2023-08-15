@@ -23,7 +23,8 @@
 - **Complexity**: Sometimes, if you have just a few strategies, the added structure might make things more complex than needed.
 - **Overhead**: There's a bit of extra setup since you need to define separate classes for each strategy.
 
-**Interview Explanation**:
+### 4. Interview Explanation:
+
 1. Strategy Pattern is a way to manage different ways of doing something in your code by creating separate strategies (algorithms or behaviors) and switching between them.
 2. It's used when you want to provide various ways of doing a task and be able to change those ways easily.
 3. The good parts are that it keeps code organized, lets you add new ways without messing up old code, and makes testing easier. But it can add a bit of complexity and some extra setup work.
