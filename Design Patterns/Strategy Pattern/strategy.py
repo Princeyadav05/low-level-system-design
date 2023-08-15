@@ -1,3 +1,9 @@
+
+# In this example, we have defined a strategy interface PaymentStrategy and two concrete
+# strategy classes, CreditCardPayment and PayPalPayment, both implementing the pay method.
+# The ShoppingCart class uses the selected payment strategy to process payments.
+
+
 from abc import ABC, abstractmethod
 
 # Define the strategy interface using ABC
@@ -40,6 +46,10 @@ class ShoppingCart:
         total = sum(item.price for item in self.items)
         return total
 
+    def show_cart(self):
+        for item in self.items:
+            print(item.name, item.price)
+
     def checkout(self):
         total = self.calculate_total()
         self.payment_strategy.pay(total)
@@ -60,8 +70,11 @@ if __name__ == "__main__":
     cart1.add_item(Item("Item 1", 50))
     cart1.add_item(Item("Item 2", 30))
     cart1.add_item(Item("Item 2", 100))
+    cart1.show_cart()
     cart1.checkout()  # Pays with credit card
 
     cart2 = ShoppingCart(paypal_payment)
     cart2.add_item(Item("Item 3", 20))
+
+    cart1.show_cart()
     cart2.checkout()  # Pays with PayPal
