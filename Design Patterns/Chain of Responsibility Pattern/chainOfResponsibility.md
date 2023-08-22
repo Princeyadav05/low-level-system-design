@@ -1,6 +1,6 @@
 # Chain of Responsibility Design Pattern
 
-[Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Strategy%20Pattern/strategy.py)
+[Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Chain%20of%20Responsibility%20Pattern/chainOfResponsibility.py)
 
 Examples: Logger Service, Vending Machine, ATM
 
