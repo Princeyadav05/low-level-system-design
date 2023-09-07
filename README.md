@@ -13,6 +13,17 @@
 
 
 ### Problems and Solutions
-| **Problem Statement** | **Solutions** |
-|:---------------------:|---------------|
+| **Problem Statement** | **Solutions** | Design Patterns Used |
+|:---------------------:|---------------|----------------------|
 | [TicTacToe](Questions/ProblemStatements/TicTacToe.md) |<ul> <li> [x] [Python](Questions/Python%20Solutions/TicTacToe/)<li> [x] [Javascript](Questions/JS%20Solutions/TicTacToe/) |
+
+
+
+### ToDo
+
+- [ ] Add Design Patterns in TicTacToe Game from Interview Standpoint.
+- [ ] Parking Lot System
+- [ ] Elevator System
+- [ ] More Structural Design Patterns
+  - [ ] Adaptor
+  - [ ] **Facade**
