@@ -14,5 +14,5 @@
 
 ### Problems and Solutions
 | **Problem Statement** | **Solutions** |
-|:---------------------:|:-------------:|
+|:---------------------:|---------------|
 | [TicTacToe](Questions/ProblemStatements/TicTacToe.md) |<ul> <li> [x] [Python](Questions/Python%20Solutions/TicTacToe/)<li> [x] [Javascript](Questions/JS%20Solutions/TicTacToe/) |
