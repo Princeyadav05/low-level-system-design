@@ -1,20 +1,38 @@
 from collections import deque
-from PlayingPieceX import PlayingPieceX
-from PlayingPieceO import PlayingPieceO
+from PlayingPiece import PlayingPiece
 from Player import Player
 from Board import Board
+from PieceType import PieceType
 
 
 class TicTacToeGame:
     def initialize_game(self):
         self.players = deque()
-        cross_piece = PlayingPieceX()
-        player1 = Player("Player1", cross_piece)
-        noughts_piece = PlayingPieceO()
-        player2 = Player("Player2", noughts_piece)
-        self.players.append(player1)
-        self.players.append(player2)
-        self.game_board = Board(3)
+        self.piece_types = list(PieceType)  # Add more piece types here
+
+        print(self.piece_types)
+        piece_choices = set()  # To keep track of chosen piece types
+
+        for i in range(1, len(self.piece_types) + 1):
+            player = Player(f"Player {i}")
+            available_pieces = [piece for piece in self.piece_types if piece.value not in piece_choices]
+
+            if not available_pieces:
+                print("All available piece types have been chosen.")
+                break
+
+            print("Available piece types:", [piece.value for piece in available_pieces])
+            player_piece_type = input(f"{player.name}, choose your piece type: ")
+
+            while player_piece_type not in [piece.value for piece in available_pieces]:
+                print("Invalid piece type. Choose from available types.")
+                player_piece_type = input(f"{player.name}, choose your piece type: ")
+
+            piece_choices.add(player_piece_type)  # Add the chosen piece type to the set
+            player.set_playing_piece(PlayingPiece(player_piece_type))
+            self.players.append(player)
+
+        self.game_board = Board(len(self.piece_types) + 1)
 
     def start_game(self):
         no_winner = True
@@ -30,6 +48,12 @@ class TicTacToeGame:
             values = s.split(" ")
             input_row = int(values[0])
             input_column = int(values[1])
+
+            if not (0 <= input_row < self.game_board.size) or not (0 <= input_column < self.game_board.size):
+                print("Invalid position. Row and column values must be within the board's range.")
+                self.players.appendleft(player_turn)
+                continue
+
             piece_added_successfully = self.game_board.add_piece(
                 input_row, input_column, player_turn.playing_piece)
             if not piece_added_successfully:

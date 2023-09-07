@@ -1,7 +1,7 @@
 class Player:
-    def __init__(self, name, playing_piece):
+    def __init__(self, name):
         self.name = name
-        self.playing_piece = playing_piece
+        self.playing_piece = None
 
     def get_name(self):
         return self.name

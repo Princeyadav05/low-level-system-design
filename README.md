@@ -13,9 +13,9 @@
 
 
 ### Problems and Solutions
-| **Problem Statement** | **Solutions** | Design Patterns Used |
-|:---------------------:|---------------|----------------------|
-| [TicTacToe](Questions/ProblemStatements/TicTacToe.md) |<ul> <li> [x] [Python](Questions/Python%20Solutions/TicTacToe/)<li> [x] [Javascript](Questions/JS%20Solutions/TicTacToe/) |
+| **Problem Statement** | **Solution** |Code| Design Patterns Used |
+|:---------------------:|--------------|----|------------------|
+| [TicTacToe](Questions/ProblemStatements/TicTacToe.md) |[Theory](Questions/Python%20Solutions/TicTacToe/Solution.md)|[Python](Questions/Python%20Solutions/TicTacToe/) | Singleton, Factory
 
 
 
