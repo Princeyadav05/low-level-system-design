@@ -1,0 +1,15 @@
+Created parking lot with 2 floors and 6 slots per floor
+Parked vehicle. Ticket ID: PR1234_1_1
+Parked vehicle. Ticket ID: PR1234_1_2
+Parked vehicle. Ticket ID: PR1234_1_3
+Parked vehicle. Ticket ID: PR1234_1_4
+Parked vehicle. Ticket ID: PR1234_1_5
+Parked vehicle. Ticket ID: PR1234_1_6
+Parked vehicle. Ticket ID: PR1234_2_1
+Invalid Ticket
+Invalid Ticket
+Invalid Ticket
+Parked vehicle. Ticket ID: PR1234_2_2
+Parked vehicle. Ticket ID: PR1234_2_3
+Parked vehicle. Ticket ID: PR1234_2_4
+Parked vehicle. Ticket ID: PR1234_2_5

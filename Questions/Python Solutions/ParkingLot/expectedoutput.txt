@@ -1,0 +1,93 @@
+No. of free slots for CAR on Floor 1: 6
+No. of free slots for CAR on Floor 2: 6
+No. of free slots for BIKE on Floor 1: 6
+No. of free slots for BIKE on Floor 2: 6
+No. of free slots for TRUCK on Floor 1: 6
+No. of free slots for TRUCK on Floor 2: 6
+Free slots for CAR on Floor 1: 1, 2, 3, 4, 5, 6
+Free slots for CAR on Floor 2: 1, 2, 3, 4, 5, 6
+Free slots for BIKE on Floor 1: 1, 2, 3, 4, 5, 6
+Free slots for BIKE on Floor 2: 1, 2, 3, 4, 5, 6
+Free slots for TRUCK on Floor 1: 1, 2, 3, 4, 5, 6
+Free slots for TRUCK on Floor 2: 1, 2, 3, 4, 5, 6
+Occupied slots for CAR on Floor 1:
+Occupied slots for CAR on Floor 2:
+Occupied slots for BIKE on Floor 1:
+Occupied slots for BIKE on Floor 2:
+Occupied slots for TRUCK on Floor 1:
+Occupied slots for TRUCK on Floor 2:
+No. of free slots for CAR on Floor 1: 0
+No. of free slots for CAR on Floor 2: 5
+No. of free slots for BIKE on Floor 1: 0
+No. of free slots for BIKE on Floor 2: 5
+No. of free slots for TRUCK on Floor 1: 0
+No. of free slots for TRUCK on Floor 2: 5
+No. of free slots for CAR on Floor 1: 0
+No. of free slots for CAR on Floor 2: 5
+No. of free slots for BIKE on Floor 1: 0
+No. of free slots for BIKE on Floor 2: 5
+No. of free slots for TRUCK on Floor 1: 0
+No. of free slots for TRUCK on Floor 2: 5
+Free slots for CAR on Floor 1:
+Free slots for CAR on Floor 2: 2, 3, 4, 5, 6
+Free slots for BIKE on Floor 1:
+Free slots for BIKE on Floor 2: 2, 3, 4, 5, 6
+Free slots for TRUCK on Floor 1:
+Free slots for TRUCK on Floor 2: 2, 3, 4, 5, 6
+Occupied slots for CAR on Floor 1: 1, 2, 3, 4, 5, 6
+Occupied slots for CAR on Floor 2: 1
+Occupied slots for BIKE on Floor 1:
+Occupied slots for BIKE on Floor 2:
+Occupied slots for TRUCK on Floor 1:
+Occupied slots for TRUCK on Floor 2:
+No. of free slots for CAR on Floor 1: 0
+No. of free slots for CAR on Floor 2: 1
+No. of free slots for BIKE on Floor 1: 0
+No. of free slots for BIKE on Floor 2: 1
+No. of free slots for TRUCK on Floor 1: 0
+No. of free slots for TRUCK on Floor 2: 1
+Free slots for CAR on Floor 1:
+Free slots for CAR on Floor 2: 6
+Free slots for BIKE on Floor 1:
+Free slots for BIKE on Floor 2: 6
+Free slots for TRUCK on Floor 1:
+Free slots for TRUCK on Floor 2: 6
+Occupied slots for CAR on Floor 1: 1, 2, 3, 4, 5, 6
+Occupied slots for CAR on Floor 2: 1
+Occupied slots for BIKE on Floor 1:
+Occupied slots for BIKE on Floor 2: 2
+Occupied slots for TRUCK on Floor 1:
+Occupied slots for TRUCK on Floor 2: 3, 4, 5
+Created parking lot with 2 floors and 6 slots per floor
+Parked vehicle. Ticket ID: PR1234_1_1
+Parked vehicle. Ticket ID: PR1234_1_2
+Parked vehicle. Ticket ID: PR1234_1_3
+Parked vehicle. Ticket ID: PR1234_1_4
+Parked vehicle. Ticket ID: PR1234_1_5
+Parked vehicle. Ticket ID: PR1234_1_6
+Parked vehicle. Ticket ID: PR1234_2_1
+Invalid Ticket
+Invalid Ticket
+Invalid Ticket
+Parked vehicle. Ticket ID: PR1234_2_2
+Parked vehicle. Ticket ID: PR1234_2_3
+Parked vehicle. Ticket ID: PR1234_2_4
+Parked vehicle. Ticket ID: PR1234_2_5
+
+Created parking lot with 2 floors and 6 slots per floor
+Parked vehicle. Ticket ID: PR1234_1_1
+Parked vehicle. Ticket ID: PR1234_1_2
+Parked vehicle. Ticket ID: PR1234_1_3
+Parked vehicle. Ticket ID: PR1234_1_4
+Parked vehicle. Ticket ID: PR1234_1_5
+Parked vehicle. Ticket ID: PR1234_1_6
+Parked vehicle. Ticket ID: PR1234_2_1
+Invalid Ticket
+Invalid Ticket
+Invalid Ticket
+Parked vehicle. Ticket ID: PR1234_2_2
+Parked vehicle. Ticket ID: PR1234_2_3
+Parked vehicle. Ticket ID: PR1234_2_4
+Parked vehicle. Ticket ID: PR1234_2_5
+
+
