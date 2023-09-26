@@ -70,7 +70,7 @@ class ParkingLot:
                 ticket = Ticket(self.parking_lot_id, floor.floor_number, slot.slot_number, vehicle)
                 ticket.parking_spot = slot
                 return ticket
-        return "Parking Lot Full"
+        return "Parking Lot Full!"
 
     def unpark_vehicle(self, ticket_id):
         parking_lot_id, floor_number, slot_number = ticket_id.split('_')
