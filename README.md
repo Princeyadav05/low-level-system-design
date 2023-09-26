@@ -15,14 +15,15 @@
 ### Problems and Solutions
 | **Problem Statement** | **Solution** |Code| Design Patterns Used |
 |:---------------------:|--------------|----|------------------|
-| [TicTacToe](Questions/ProblemStatements/TicTacToe.md) |[Theory](Questions/Python%20Solutions/TicTacToe/Solution.md)|[Python](Questions/Python%20Solutions/TicTacToe/) | Singleton, Factory
+| [TicTacToe](Questions/ProblemStatements/TicTacToe.md) |[Theory](Questions/Python%20Solutions/TicTacToe/Solution.md)|[Python](Questions/Python%20Solutions/TicTacToe/) | Singleton, Factory |
+| [Parking Lot](Questions/ProblemStatements/ParkingLot.md) |[Theory](Questions/Python%20Solutions/ParkingLot/Solution.md)|[Python](Questions/Python%20Solutions/ParkingLot/main.py) |
 
 
 
 ### ToDo
 
 - [ ] Add Design Patterns in TicTacToe Game from Interview Standpoint.
-- [ ] Parking Lot System
+- [x] Parking Lot System
 - [ ] Elevator System
 - [ ] More Structural Design Patterns
   - [ ] Adaptor
