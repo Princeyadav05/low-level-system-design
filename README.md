@@ -1,5 +1,8 @@
 ## Low Level Design Interview Problems
 
+### SOLID Principles
+- [Explantion with Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/SOLID%20Principles/solid.md)
+
 
 ### Design Patterns
 | Design Pattern   | Theory | Python Code                                                                                                                                        |
