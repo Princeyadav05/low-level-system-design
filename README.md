@@ -1,7 +1,7 @@
 ## Low Level Design Interview Problems
 
 ### SOLID Principles
-- [Explantion with Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/SOLID%20Principles/solid.md)
+- [Explantion with Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Solid%20Principles/README.md)
 
 
 ### Design Patterns
