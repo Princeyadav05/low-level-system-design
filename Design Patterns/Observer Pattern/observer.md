@@ -1,6 +1,7 @@
 # Observer Design Pattern
 
-[Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Observer%20Pattern/observer.py)
+[Python Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Observer%20Pattern/observer.py) \
+[TS Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Observer%20Pattern/observer.ts)
 
 ### 1. What is the Observer Design Pattern?
 

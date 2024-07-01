@@ -1,6 +1,7 @@
 # Decorator Design Pattern
 
-[Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Decorator%20Pattern/decorator.py)
+[Python Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Decorator%20Pattern/decorator.py) \
+[TS Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Decorator%20Pattern/decorator.ts)
 
 ### 1. What is it? What type of design pattern?
 

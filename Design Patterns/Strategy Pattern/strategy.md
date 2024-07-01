@@ -1,6 +1,7 @@
 # Strategy Design Pattern
 
-[Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Strategy%20Pattern/strategy.py)
+[Python Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Strategy%20Pattern/strategy.py) \
+[TS Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Strategy%20Pattern/strategy.ts)
 
 ### 1. What is the Strategy Design Pattern?
 

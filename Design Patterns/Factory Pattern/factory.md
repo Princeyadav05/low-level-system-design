@@ -1,8 +1,7 @@
 # Factory Design Pattern
 
-[Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Factory%20Pattern/factory.py)
-Sure, I'd be happy to explain the Factory Design Pattern in a simple manner using markdown:
-
+[Python Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Factory%20Pattern/factory.py)
+[TS Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Factory%20Pattern/factory.ts)
 
 
 ### 1. What is it? And what type of design pattern is it?

@@ -1,6 +1,7 @@
 # Abstract Factory  Design Pattern
 
-[Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/AbstractFactory%20Pattern/abstractFactory.py)
+[Python Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/AbstractFactory%20Pattern/abstractFactory.py) \
+[TS Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/AbstractFactory%20Pattern/abstractFactory.ts)
 
 
 ### 1. What is it? And what type of design pattern it is.
