@@ -80,12 +80,15 @@ const paypalPayment = new PayPalPayment("example@email.com", "secretpassword");
 const cart1 = new ShoppingCart(creditCardPayment);
 cart1.add_item(new Item("Item 1", 50));
 cart1.add_item(new Item("Item 2", 30));
-cart1.add_item(new Item("Item 2", 100));
+cart1.add_item(new Item("Item 3", 100));
 cart1.show_cart();
 cart1.checkout(); // Pays with credit card
 
-const cart2 = new ShoppingCart(paypalPayment);
-cart2.add_item(new Item("Item 3", 20));
+console.log("-------------------");
 
-cart1.show_cart();
+const cart2 = new ShoppingCart(paypalPayment);
+cart2.add_item(new Item("Item 1", 20));
+cart2.add_item(new Item("Item 2", 900));
+
+cart2.show_cart();
 cart2.checkout(); // Pays with PayPal
