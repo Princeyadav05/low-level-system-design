@@ -47,9 +47,9 @@ class ErrorLogger(AbstractLogger):
 
 
 def create_logger_chain():
-    console_logger = ConsoleLogger(AbstractLogger.INFO)
-    file_logger = FileLogger(AbstractLogger.DEBUG, "debug.log")
-    error_logger = ErrorLogger(AbstractLogger.ERROR)
+    console_logger = ConsoleLogger(LogLevel.INFO)
+    file_logger = FileLogger(LogLevel.DEBUG, "debug.log")
+    error_logger = ErrorLogger(LogLevel.ERROR)
 
     console_logger.set_next_logger(file_logger)
     file_logger.set_next_logger(error_logger)
