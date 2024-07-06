@@ -1,5 +1,4 @@
 ## Low Level Design Interview Problems
-
 ### SOLID Principles
 - [Explantion with Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Solid%20Principles/README.md)
 
@@ -13,6 +12,8 @@
 | Factory Pattern | [Theory](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Factory%20Pattern/factory.md)       | [Python](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Factory%20Pattern/factory.py) | [TypeScript](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Factory%20Pattern/factory.ts) |
 | Abstract Factory Pattern | [Theory](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/AbstractFactory%20Pattern/abstractFactory.md)       | [Python](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/AbstractFactory%20Pattern/abstractFactory.py) | [TypeScript](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/AbstractFactory%20Pattern/abstractFactory.ts) |
 | Chain of Responsibility Pattern | [Theory](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Chain%20of%20Responsibility%20Pattern/chainOfResponsibility.md)       | [Python](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Chain%20of%20Responsibility%20Pattern/chainOfResponsibility.py) | [TypeScript](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Chain%20of%20Responsibility%20Pattern/chainOfResponsibility.ts) |
+| Facade Pattern | [Theory](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Facade%20Pattern/facade.md)       | [Python](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Facade%20Pattern/facade.py) | [TypeScript](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Facade%20Pattern/facade.ts) |
+| Adapter Pattern | [Theory](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Adapter%20Pattern/adapter.md)       | [Python](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Adapter%20Pattern/adapter.py) | [TypeScript](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Adapter%20Pattern/adapter.ts) |
 
 
 ### Problems and Solutions
@@ -24,8 +25,4 @@
 ### ToDo
 
 - [ ] Add Design Patterns in TicTacToe Game from Interview Standpoint.
-- [x] Parking Lot System
 - [ ] Elevator System
-- [ ] More Structural Design Patterns
-  - [ ] Adaptor
-  - [ ] **Facade**
