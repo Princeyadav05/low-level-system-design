@@ -26,3 +26,22 @@
 
 - [ ] Add Design Patterns in TicTacToe Game from Interview Standpoint.
 - [ ] Elevator System
+- [ ] Singleton
+- [ ] Iterator
+- [ ] Command
+- [ ] Composite
+- [ ] Design a Parking Lot System
+- [ ] Design an Elevator System
+- [ ] Design a Library Management System
+- [ ] Design a Movie Ticket Booking System
+- [ ] Design a File System
+- [ ] Design a Chess Game
+- [ ] Design a Hotel Management System
+- [ ] Design an ATM Machine
+- [ ] Design a Vending Machine
+- [ ] Design an Online Shopping Cart
+- [ ] Design a Ride-Sharing System (like Uber)
+- [ ] Design a Logging System
+- [ ] Design a Restaurant Reservation System
+- [ ] Design a Traffic Light Control System
+- [ ] Design a Task Management System (like Trello)
