@@ -16,6 +16,8 @@
 | Adapter Pattern | [Theory](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Adapter%20Pattern/adapter.md)       | [Python](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Adapter%20Pattern/adapter.py) | [TypeScript](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Adapter%20Pattern/adapter.ts) |
 | Singleton Pattern | [Theory](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Singleton%20Pattern/singleton.md)       | [Python](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Singleton%20Pattern/singleton.py) | [TypeScript](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Singleton%20Pattern/singleton.ts) |
 | Iterator Pattern | [Theory](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Iterator%20Pattern/iterator.md)       | [Python](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Iterator%20Pattern/iterator.py) | [TypeScript](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Iterator%20Pattern/iterator.ts) |
+| Command Pattern | [Theory](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Command%20Pattern/command.md)       | [Python](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Command%20Pattern/command.py) | [TypeScript](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Command%20Pattern/command.ts) |
+
 
 
 
@@ -29,8 +31,6 @@
 
 - [ ] Add Design Patterns in TicTacToe Game from Interview Standpoint.
 - [ ] Elevator System
-- [ ] Command
-- [ ] Composite
 - [ ] Design a Parking Lot System
 - [ ] Design an Elevator System
 - [ ] Design a Library Management System
