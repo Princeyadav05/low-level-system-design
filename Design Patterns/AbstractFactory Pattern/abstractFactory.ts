@@ -28,6 +28,7 @@ class MacOSFactory extends GUIFactory {
   }
 }
 
+
 // Abstract Product: Button
 abstract class Button {
   abstract paint(): string;

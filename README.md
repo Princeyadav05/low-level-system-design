@@ -26,8 +26,6 @@
 
 - [ ] Add Design Patterns in TicTacToe Game from Interview Standpoint.
 - [ ] Elevator System
-- [ ] Singleton
-- [ ] Iterator
 - [ ] Command
 - [ ] Composite
 - [ ] Design a Parking Lot System
