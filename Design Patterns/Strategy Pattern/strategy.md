@@ -9,6 +9,8 @@
 
 **Explanation**: Imagine you have different ways to do a task, like paying for items. Instead of coding all the payment methods directly into the main part of your program, the Strategy Pattern lets you encapsulate each payment method as a separate "strategy." This way, you can easily switch between payment methods without changing the main code.
 
+Strategy is a behavioral design pattern.
+
 ### 2. When to Use the Strategy Design Pattern?
 
 **Use Case**: You should use the Strategy Pattern when you want to provide different ways of doing something and want to be able to switch between these ways at runtime.
