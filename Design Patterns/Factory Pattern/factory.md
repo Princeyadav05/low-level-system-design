@@ -1,6 +1,6 @@
 # Factory Design Pattern
 
-[Python Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Factory%20Pattern/factory.py)
+[Python Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Factory%20Pattern/factory.py) \
 [TS Code](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Factory%20Pattern/factory.ts)
 
 
@@ -26,7 +26,10 @@ Use the Factory Design Pattern when:
 - **Abstraction**: It might require creating extra classes for the factory and the products, which can be a bit abstract for small projects.
 
 ### 4. Small Interview Explanation
-Imagine you're building a game. You need to create different characters like knights, wizards, and archers. Instead of directly making these characters in your game code, you create a Character Factory. This factory takes the type of character you want and returns the specific character object you need. This way, if you later decide to add a new character type, you just update the factory, and the rest of your game doesn't need to change.
+- Imagine you're building a game. You need to create different characters like knights, wizards, and archers. 
+- Instead of directly making these characters in your game code, you create a Character Factory. 
+- This factory takes the type of character you want and returns the specific character object you need. 
+- This way, if you later decide to add a new character type, you just update the factory, and the rest of your game doesn't need to change.
 
 In simpler words, the Factory Design Pattern is like a magical machine that makes the right toys for your game, without you needing to know exactly how each toy is made.
 
