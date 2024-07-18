@@ -28,5 +28,7 @@ Use the Decorator pattern when you want to:
 - **Learning Curve:** Understanding the pattern's structure can be challenging for beginners.
 
 ### 4. Interview Explanation
-
-In interviews, imagine you run a coffee shop app. The Decorator pattern is like customizing your coffee. If you have a basic coffee (component), you can add milk (decorator), sugar (decorator), or more, each adjusting the price. It's like a build-a-coffee system, where you can mix flavors without changing the core coffee class. This makes your app flexible and allows customers to personalize their drinks easily.
+- Imagine you run a coffee shop app. The Decorator pattern is like customizing your coffee. 
+- If you have a basic coffee (component), you can add milk (decorator), sugar (decorator), or more, each adjusting the price. 
+- It's like a build-a-coffee system, where you can mix flavors without changing the core coffee class. 
+- This makes your app flexible and allows customers to personalize their drinks easily.
