@@ -31,13 +31,13 @@ Examples where you might use the Observer pattern:
 
 ### 4. Interview Explanation:
 
-In an interview, you could explain the Observer pattern like this:
+- Imagine you have a news website where people can subscribe to receive updates about news articles.
+- The Observer design pattern is like this situation. The news website is the 'subject,' and people who subscribe are the 'observers.'
+- When a new article is published (when the subject changes), the website automatically sends notifications to all subscribers (observers) so they can read the new article.
+- This way, the subscribers are always up to date without the website needing to individually inform each person."
 
-"Imagine you have a news website where people can subscribe to receive updates about news articles. The Observer design pattern is like this situation. The news website is the 'subject,' and people who subscribe are the 'observers.' When a new article is published (when the subject changes), the website automatically sends notifications to all subscribers (observers) so they can read the new article. This way, the subscribers are always up to date without the website needing to individually inform each person."
-
-Remember, the key points are:
-
-There's a subject (source of information) and observers (listeners).
-Observers want to know when the subject changes.
-It helps to avoid strong connections between components.
-Advantages include flexibility and reusability, while disadvantages include complexity and managing update order.
+Key points: \ 
+- There's a subject (source of information) and observers (listeners).
+- Observers want to know when the subject changes.
+- It helps to avoid strong connections between components.
+- Advantages include flexibility and reusability, while disadvantages include complexity and managing update order.
