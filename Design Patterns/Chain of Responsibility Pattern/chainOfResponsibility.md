@@ -6,10 +6,10 @@
 Examples: Logger Service, Vending Machine, ATM
 
 ### What is it?
-The Chain of Responsibility is a behavioral design pattern that helps organize code by creating a chain of handler objects. Each handler can process a request or pass it to the next handler in the chain. It's like a relay race where each runner (handler) can decide to run or pass the baton (request) to the next runner.
+The Chain of Responsibility is a behavioral design pattern that helps organize code by creating a chain of handler objects. Each handler can process a request or pass it to the next handler in the chain. 
 
-### Type of Design Pattern
-The Chain of Responsibility is a behavioral design pattern. It's part of a group of patterns that focus on how objects collaborate and communicate.
+It's like a relay race where each runner (handler) can decide to run or pass the baton (request) to the next runner.
+Majorly focuses on how objects collaborate and communicate.
 
 ### When to Use It?
 Use the Chain of Responsibility when you want to:
