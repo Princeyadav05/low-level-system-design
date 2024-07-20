@@ -29,7 +29,7 @@
 
 ### ToDo
 
-- [ ] Add Design Patterns in TicTacToe Game from Interview Standpoint.
+- [ ] TicTacToe in TS.
 - [ ] Elevator System
 - [ ] Design a Parking Lot System
 - [ ] Design an Elevator System
