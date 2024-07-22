@@ -1,13 +1,15 @@
+import { PieceType } from "./pieceTypeEnums";
+
 export class Board {
-  private grid: string[][];
+  private grid: PieceType[][];
 
   constructor() {
     this.grid = Array(3)
       .fill(null)
-      .map(() => Array(3).fill("-"));
+      .map(() => Array(3).fill(PieceType.Empty));
   }
 
-  makeMove(row: number, col: number, piece: string): boolean {
+  makeMove(row: number, col: number, piece: PieceType): boolean {
     if (this.isValidMode(row, col)) {
       this.grid[row][col] = piece;
       return true;
@@ -18,14 +20,18 @@ export class Board {
 
   isValidMode(row: number, col: number): boolean {
     return (
-      row >= 0 && row < 3 && col >= 0 && col < 3 && this.grid[row][col] === "-"
+      row >= 0 &&
+      row < 3 &&
+      col >= 0 &&
+      col < 3 &&
+      this.grid[row][col] === PieceType.Empty
     );
   }
 
   isFull(): boolean {
     for (let row of this.grid) {
       for (let cell of row) {
-        if (cell === "-") {
+        if (cell === PieceType.Empty) {
           return false;
         }
       }
@@ -33,11 +39,7 @@ export class Board {
     return true;
   }
 
-  printBoard(): void {
-    this.grid.forEach((row) => console.log(row.join(" ")));
-  }
-
-  getGrid(): string[][] {
+  getGrid(): PieceType[][] {
     return this.grid;
   }
 }

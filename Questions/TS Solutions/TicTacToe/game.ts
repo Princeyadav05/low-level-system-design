@@ -1,60 +1,72 @@
 import { Board } from "./board";
+import { GameLogic } from "./gameLogic";
+import { IOUtil } from "./ioUtils";
+import { PieceType } from "./pieceTypeEnums";
 import { Player } from "./player";
-import readlineSync from "readline-sync";
 
 export class Game {
   private board: Board;
   private players: Player[];
-
   private currentPlayerIndex: number;
+  private ioUtil: IOUtil;
+  private gameLogic: GameLogic;
 
   constructor() {
     this.board = new Board();
     this.players = [];
     this.currentPlayerIndex = 0;
+    this.ioUtil = new IOUtil();
+    this.gameLogic = new GameLogic();
   }
 
   initializeGame(): void {
-    const player1Name = readlineSync.question("Enter name for Player X: ");
-    const player2Name = readlineSync.question("Enter name for Player O: ");
+    const player1Name = this.ioUtil.askQuestion(
+      `Enter name for Player ${PieceType.X}: `
+    );
+    const player2Name = this.ioUtil.askQuestion(
+      `Enter name for Player ${PieceType.O}: `
+    );
 
-    this.players = [new Player(player1Name, "X"), new Player(player2Name, "O")];
-    console.log("Initial Board:");
-
-    this.board.printBoard();
+    this.players = [
+      new Player(player1Name, PieceType.X),
+      new Player(player2Name, PieceType.O),
+    ];
+    this.ioUtil.printMessage("Initial board:");
+    this.ioUtil.printBoard(this.board.getGrid());
   }
 
   playGame(): void {
     while (true) {
       const currentPlayer = this.players[this.currentPlayerIndex];
-      const move = readlineSync.question(
+      const move = this.ioUtil.askQuestion(
         `${currentPlayer.name}'s turn (${currentPlayer.piece}). Enter row(1-3) and column(1-3) or 'exit': `
       );
 
       if (move.toLowerCase() === "exit") {
-        console.log("Exiting game...");
+        this.ioUtil.printMessage("Exiting game...");
         break;
       }
 
-      const [row, col] = move.split(" ").map((el) => parseInt(el) - 1);
+      const [row, col] = this.gameLogic.parseMove(move);
 
-      if (isNaN(row) || isNaN(col)) {
-        console.log(
+      if (row === -1 || col === -1) {
+        this.ioUtil.printMessage(
           "Invalid input. Please enter two numbers separated by a space."
         );
         continue;
       }
 
       if (this.board.makeMove(row, col, currentPlayer.piece)) {
-        this.board.printBoard();
+        const grid = this.board.getGrid();
+        this.ioUtil.printBoard(grid);
 
-        if (this.isWinningMove(row, col)) {
-          console.log(`${currentPlayer.name} wins!`);
+        if (this.gameLogic.isWinningMove(grid, row, col)) {
+          this.ioUtil.printMessage(`${currentPlayer.name} wins!`);
           break;
         }
 
         if (this.board.isFull()) {
-          console.log("It's a draw!");
+          this.ioUtil.printMessage("It's a draw!");
           break;
         }
 
@@ -65,32 +77,5 @@ export class Game {
 
   private switchPlayer(): void {
     this.currentPlayerIndex = 1 - this.currentPlayerIndex;
-  }
-
-  private isWinningMove(row: number, col: number): boolean {
-    const grid = this.board.getGrid();
-    const piece = grid[row][col];
-
-    // Row
-    if (grid[row].every((el) => el === piece)) {
-      return true;
-    }
-
-    // Column
-    if (grid.every((row) => row[col] === piece)) {
-      return true;
-    }
-
-    // Diagonal
-    if (row === col && grid.every((row, col) => row[col] === piece)) {
-      return true;
-    }
-
-    // Reverse Diagonal
-    if (row + col === 2 && grid.every((row, col) => row[2 - col] === piece)) {
-      return true;
-    }
-
-    return false;
   }
 }
