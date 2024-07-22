@@ -19,17 +19,14 @@
 | Command Pattern | [Theory](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Command%20Pattern/command.md)       | [Python](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Command%20Pattern/command.py) | [TypeScript](https://github.com/Princeyadav05/low-level-system-design/blob/main/Design%20Patterns/Command%20Pattern/command.ts) | Behavioral |
 
 
-
-
 ### Problems and Solutions
-| **Problem Statement** | **Solution** |Code| Design Patterns Used |
-|:---------------------:|--------------|----|------------------|
-| [TicTacToe](Questions/ProblemStatements/TicTacToe.md) |[Theory](Questions/Python%20Solutions/TicTacToe/Solution.md)|[Python](Questions/Python%20Solutions/TicTacToe/) | Singleton, Factory |
-| [Parking Lot](Questions/ProblemStatements/ParkingLot.md) |[Theory](Questions/Python%20Solutions/ParkingLot/Solution.md)|[Python](Questions/Python%20Solutions/ParkingLot/main.py) |
+| **Problem Statement** | **Solution** | Code | Design Patterns Used |
+|:---------------------:|--------------|------|----------------------|
+| [TicTacToe](Questions/ProblemStatements/TicTacToe.md) | [Theory](Questions/Python%20Solutions/TicTacToe/Solution.md) | [TypeScript](Questions/TypeScript%20Solutions/TicTacToe/)<br>[Python](Questions/Python%20Solutions/TicTacToe/) | Singleton, Factory |
+| [Parking Lot](Questions/ProblemStatements/ParkingLot.md) | [Theory](Questions/Python%20Solutions/ParkingLot/Solution.md) | [Python](Questions/Python%20Solutions/ParkingLot/main.py) | |
 
 ### ToDo
 
-- [ ] TicTacToe in TS.
 - [ ] Elevator System
 - [ ] Design a Parking Lot System
 - [ ] Design an Elevator System
