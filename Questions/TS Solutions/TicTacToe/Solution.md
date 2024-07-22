@@ -3,7 +3,7 @@
 
 A command-line implementation of the classic Tic-Tac-Toe game using TypeScript.
 
-**Code Link**: [TypeScript](Questions/TypeScript%20Solutions/TicTacToe/)
+**Code Link**: [TypeScript](main.ts)
 
 ## How to Play
 

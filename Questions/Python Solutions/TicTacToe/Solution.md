@@ -2,7 +2,7 @@
 
 This Python program implements a simple Tic-Tac-Toe game that can be played by multiple players with different piece types.
 
-**Code Link**: [Python](Questions/Python%20Solutions/TicTacToe/)
+**Code Link**: [Python](main.py)
 
 ## How to Play
 

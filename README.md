@@ -22,7 +22,7 @@
 ### Problems and Solutions
 | **Problem Statement** | **Solution** | Code | Design Patterns Used |
 |:---------------------:|--------------|------|----------------------|
-| [TicTacToe](Questions/ProblemStatements/TicTacToe.md) | [Theory](Questions/Python%20Solutions/TicTacToe/Solution.md) | [TypeScript](Questions/TS%20Solutions/TicTacToe/)<br>[Python](Questions/Python%20Solutions/TicTacToe/) | Singleton, Factory |
+| [TicTacToe](Questions/ProblemStatements/TicTacToe.md) | [Theory](Questions/TS%20Solutions/TicTacToe/Solution.md) | [TypeScript](Questions/TS%20Solutions/TicTacToe/)<br>[Python](Questions/Python%20Solutions/TicTacToe/) | Singleton, Factory |
 | [Parking Lot](Questions/ProblemStatements/ParkingLot.md) | [Theory](Questions/Python%20Solutions/ParkingLot/Solution.md) | [Python](Questions/Python%20Solutions/ParkingLot/main.py) | |
 
 ### ToDo
