@@ -28,11 +28,16 @@ export class Game {
   start(): void {
     while (this.gameState === GameState.IN_PROGRESS) {
       this.displayHandler.printBoard(this.board);
+
       try {
         const direction = this.inputHandler.getUserInput();
         const moved = this.makeMove(direction);
+
         if (!moved) {
           console.log("Invalid move. Try again.");
+        } else {
+          this.board.addRandomTile();
+          this.updateGameState();
         }
       } catch (error) {
         console.log("Invalid input. Please try again.");
@@ -40,9 +45,7 @@ export class Game {
     }
 
     this.displayHandler.printBoard(this.board);
-    // this.displayHandler.printGameStatus(this.gameState, this.currentScore);
-
-    //     this.inputHandler.close();
+    this.displayHandler.printGameStatus(this.gameState);
   }
 
   private makeMove(direction: Direction): boolean {
@@ -50,7 +53,25 @@ export class Game {
       return false;
     }
 
-    // const moved = this.board.moveTiles(direction);
-    // return moved;
+    const moved = this.board.moveTiles(direction);
+    return moved;
+  }
+
+  private updateGameState(): void {
+    if (this.isGameWon()) {
+      this.gameState = GameState.WON;
+    } else if (this.isGameLost()) {
+      this.gameState = GameState.LOST;
+    }
+  }
+
+  private isGameWon(): boolean {
+    return this.board
+      .getGrid()
+      .some((row) => row.some((tile) => tile.getValue() === this.winningValue));
+  }
+
+  private isGameLost(): boolean {
+    return this.board.isBoardFull() && !this.board.hasAdjacentEqualTiles();
   }
 }

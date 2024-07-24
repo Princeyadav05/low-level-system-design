@@ -1,4 +1,5 @@
 import { Board } from "./Board";
+import { GameState } from "./Game";
 // import { GameState } from "./GameController";
 
 export class DisplayHandler {
@@ -21,15 +22,18 @@ export class DisplayHandler {
     return " ".repeat(leftPad) + str + " ".repeat(rightPad);
   }
 
-  //   printGameStatus(gameState: GameState, score: number): void {
-  //     console.log(`Current Score: ${score}`);
-  //     switch (gameState) {
-  //       case GameState.WON:
-  //         console.log("Congratulations! You won!");
-  //         break;
-  //       case GameState.LOST:
-  //         console.log("Game over. Better luck next time!");
-  //         break;
-  //     }
-  //   }
+  printGameStatus(gameState: GameState): void {
+    switch (gameState) {
+      case GameState.IN_PROGRESS:
+        console.log("Game in progress. Keep playing!");
+        break;
+      case GameState.WON:
+        console.log("Congratulations! You won!");
+        break;
+      case GameState.LOST:
+        console.log("Game over. Better luck next time!");
+        break;
+    }
+    console.log();
+  }
 }
