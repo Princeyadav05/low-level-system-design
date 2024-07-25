@@ -21,10 +21,11 @@
 
 ### Problems and Solutions
 | **Problem Statement** | **Solution** | Code |
-|:---------------------:|--------------|------|
+|:---------------------|--------------|------|
 | [TicTacToe](Questions/ProblemStatements/TicTacToe.md) | [Theory](Questions/TS%20Solutions/TicTacToe/Solution.md) | [TypeScript](Questions/TS%20Solutions/TicTacToe/)<br>[Python](Questions/Python%20Solutions/TicTacToe/) |
-| [2048](Questions/ProblemStatements/2048.md) | [Theory](Questions/TS%20Solutions/2048/Solution.md) | [Typescript](Questions/TS%20Solutions/2048/main.ts) | |
-| [Snakes & Ladders](Questions/ProblemStatements/SnakesAndLadder.md) | [Theory](Questions/TS%20Solutions/SnakesAndLadder/Solution.md) | [Typescript](Questions/TS%20Solutions/SnakesAndLadder/main.ts) | |
+| [2048](Questions/ProblemStatements/2048.md) | [Theory](Questions/TS%20Solutions/2048/Solution.md) | [Typescript](Questions/TS%20Solutions/2048/main.ts) |
+| [Snakes & Ladders](Questions/ProblemStatements/SnakesAndLadder.md) | [Theory](Questions/TS%20Solutions/SnakesAndLadder/Solution.md) | [Typescript](Questions/TS%20Solutions/SnakesAndLadder/main.ts) |
+| [In Memory KV Store](Questions/ProblemStatements/InMemoryKeyValueStore.md) | [Theory](Questions/TS%20Solutions/InMemoryKeyValueStore/Solution.md) | [Typescript](Questions/TS%20Solutions/InMemoryKeyValueStore/main.ts) |
 | [Parking Lot](Questions/ProblemStatements/ParkingLot.md) | [Theory](Questions/Python%20Solutions/ParkingLot/Solution.md) | [Python](Questions/Python%20Solutions/ParkingLot/main.py) | |
 
 ### ToDo
