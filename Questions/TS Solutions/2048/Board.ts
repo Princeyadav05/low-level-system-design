@@ -53,12 +53,20 @@ export class Board {
     let moved = false;
     const vector = this.getVector(direction);
 
-    for (let row = 0; row < this.size; row++) {
-      for (let col = 0; col < this.size; col++) {
+    const range = [...Array(this.size).keys()];
+    const rowOrder = vector[0] === 1 ? range.reverse() : range;
+    const colOrder = vector[1] === 1 ? range.reverse() : range;
+
+    console.log(`Direction: ${Direction[direction]}`);
+    console.log("rowOrder:", rowOrder);
+    console.log("colOrder:", colOrder);
+
+    // First, move all tiles
+    for (const row of rowOrder) {
+      for (const col of colOrder) {
         const currentTile = this.grid[row][col];
         if (!currentTile.isEmpty()) {
           const [newRow, newCol] = this.findFarthestPosition(row, col, vector);
-
           if (newRow !== row || newCol !== col) {
             this.grid[newRow][newCol].setValue(currentTile.getValue());
             currentTile.setValue(0);
@@ -68,7 +76,9 @@ export class Board {
       }
     }
 
-    this.mergeTiles(vector);
+    // Then, merge tiles
+    moved = this.mergeTiles(vector, rowOrder, colOrder) || moved;
+
     return moved;
   }
 
@@ -123,23 +133,51 @@ export class Board {
     return row >= 0 && row < this.size && col >= 0 && col < this.size;
   }
 
-  private mergeTiles(vector: [number, number]): void {
-    for (let row = 0; row < this.size; row++) {
-      for (let col = 0; col < this.size; col++) {
-        const [nextRow, nextCol] = [row + vector[0], col + vector[1]];
-        if (this.isWithinBounds(nextRow, nextCol)) {
-          const currentTile = this.grid[row][col];
-          const nextTile = this.grid[nextRow][nextCol];
-          if (
-            !currentTile.isEmpty() &&
-            currentTile.getValue() === nextTile.getValue()
-          ) {
-            nextTile.setValue(nextTile.getValue() * 2);
-            currentTile.setValue(0);
+  private mergeTiles(
+    vector: [number, number],
+    rowOrder: number[],
+    colOrder: number[]
+  ): boolean {
+    let merged = false;
+
+    for (const row of rowOrder) {
+      for (const col of colOrder) {
+        const currentTile = this.grid[row][col];
+        if (!currentTile.isEmpty()) {
+          const [nextRow, nextCol] = [row + vector[0], col + vector[1]];
+          if (this.isWithinBounds(nextRow, nextCol)) {
+            const nextTile = this.grid[nextRow][nextCol];
+            if (currentTile.getValue() === nextTile.getValue()) {
+              nextTile.setValue(nextTile.getValue() * 2);
+              currentTile.setValue(0);
+              merged = true;
+            }
           }
         }
       }
     }
+
+    // Move tiles again after merging
+    if (merged) {
+      for (const row of rowOrder) {
+        for (const col of colOrder) {
+          const currentTile = this.grid[row][col];
+          if (!currentTile.isEmpty()) {
+            const [newRow, newCol] = this.findFarthestPosition(
+              row,
+              col,
+              vector
+            );
+            if (newRow !== row || newCol !== col) {
+              this.grid[newRow][newCol].setValue(currentTile.getValue());
+              currentTile.setValue(0);
+            }
+          }
+        }
+      }
+    }
+
+    return merged;
   }
 
   isBoardFull(): boolean {
