@@ -24,6 +24,15 @@ When publishing a message, you'll be prompted to enter:
 
 5. **Publish-Subscribe Model**: The core functionality is based on the publish-subscribe messaging pattern.
 
+## Class Diagram
+
+#### Topic
+![Topic Class Diagram](TopicClassDiagram.png)
+
+#### Queue System 
+![Queue System Class Diagram](QueueSystemClassDiagram.png)
+
+
 ## Code Structure
 
 * `main.ts`: Entry point of the application, handles the command loop.
