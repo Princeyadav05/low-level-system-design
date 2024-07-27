@@ -24,22 +24,23 @@ Design a command line based In-Memory Key-Value Store like Redis.
 ### Input
 Multiple lines with each line containing a command.
 
-Possible commands:
+#### Possible commands:
 
+```
 get <key>
 put <key> <attributeKey1> <attributeValue1> <attributeKey2> <attributeValue2>....
 delete <key>
 search <attributeKey> <attributeValue>
 keys
 exit
-
-Stop taking the input when you encounter the word exit.
+```
 
 Assume that attribute keys and values would not have space in between.
 
 ### Output
 Print output based on the specific commands as mentioned below.
 
+```
 get
 Comma and space-separated attributes. Example:
 
@@ -59,9 +60,11 @@ Print in sorted order
 keys
 Comma-separated keys. Example: key1,key2,key3,key4
 Print in sorted order
+```
 
 
 ### Sample Input
+```
 put sde_bootcamp title SDE-Bootcamp price 30000.00 enrolled false estimated_time 30
 get sde_bootcamp
 keys
@@ -89,14 +92,17 @@ No entry found for sde_bootcamp
 sde_kickstart
 sde_bootcamp
 sde_bootcamp,sde_kickstart
+```
 
 ### Expectations
-Make sure that you have a working and demonstrable code
-Make sure that the code is functionally correct
-Code should be modular and readable
-Separation of concern should be addressed
-Please do not write everything in a single file (if not coding in C/C++)
-Code should easily accommodate new requirements and minimal changes
-There should be a main method from where the code could be easily testable
-[Optional] Write unit tests, if possible
-No need to create a GUI
+- Make sure that you have a working and demonstrable code
+- Make sure that the code is functionally correct
+- Code should be modular and readable
+- Separation of concern should be addressed
+- Please do not write everything in a single file (if not coding in C/C++)
+- Code should easily accommodate new requirements and minimal changes
+- There should be a main method from where the code could be easily testable
+
+### Optional
+- Write unit tests, if possible
+- No need to create a GUI

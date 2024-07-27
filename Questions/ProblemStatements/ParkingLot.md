@@ -34,13 +34,14 @@ Details about the Tickets:
 1. The ticket id would be of the following format:<parking_lot_id>_<floor_no>_<slot_no> Example: PR1234_2_5 (denotes 5th slot of 2nd floor of parking lot PR1234)
 2. We can assume that there will only be 1 parking lot. The ID of that parking lot is PR1234.
 
-Input/Output Format
+### Input/Output Format
 The code should strictly follow the input/output format and will be tested with provided test cases.
 
-Input Format
+#### Input Format
 Multiple lines with each line containing a command.
 
-Possible commands:
+##### Possible commands:
+```
 create_parking_lot <parking_lot_id> <no_of_floors> <no_of_slots_per_floor>
 park_vehicle <vehicle_type> <reg_no> <color>
 unpark_vehicle <ticket_id>
@@ -74,9 +75,11 @@ The above will be printed for each floor.
 display occupied_slots <vehicle_type>
 Occupied slots for <vehicle_type> on Floor <floor_no>: <comma_separated_values_of_slot_nos>
 The above will be printed for each floor.
+```
 
 Examples
 Sample Input
+```
 create_parking_lot PR1234 2 6
 display free_count CAR
 display free_count BIKE
@@ -123,8 +126,10 @@ display occupied_slots CAR
 display occupied_slots BIKE
 display occupied_slots TRUCK
 exit
+```
 
 Expected Output
+```
 Created parking lot with 2 floors and 6 slots per floor
 No. of free slots for CAR on Floor 1: 3
 No. of free slots for CAR on Floor 2: 3
@@ -200,6 +205,7 @@ Occupied slots for BIKE on Floor 1: 2
 Occupied slots for BIKE on Floor 2:
 Occupied slots for TRUCK on Floor 1: 1
 Occupied slots for TRUCK on Floor 2: 1
+```
 
 Code Expectations
 1. Make sure that you have a working and demonstrable code
