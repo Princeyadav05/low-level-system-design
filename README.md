@@ -22,20 +22,17 @@
 ### Problems and Solutions
 | **Problem Statement** | **Solution** | Code |
 |:---------------------|--------------|------|
-| [TicTacToe](Questions/ProblemStatements/TicTacToe.md) | [Theory](Questions/TS%20Solutions/TicTacToe/Solution.md) | [TypeScript](Questions/TS%20Solutions/TicTacToe/)<br>[Python](Questions/Python%20Solutions/TicTacToe/) |
+| [TicTacToe](Questions/ProblemStatements/TicTacToe.md) | [Theory](Questions/TS%20Solutions/TicTacToe/Solution.md) | [TypeScript](Questions/TS%20Solutions/TicTacToe/main.ts)<br>[Python](Questions/Python%20Solutions/TicTacToe/) |
 | [2048](Questions/ProblemStatements/2048.md) | [Theory](Questions/TS%20Solutions/2048/Solution.md) | [Typescript](Questions/TS%20Solutions/2048/main.ts) |
 | [Snakes & Ladders](Questions/ProblemStatements/SnakesAndLadder.md) | [Theory](Questions/TS%20Solutions/SnakesAndLadder/Solution.md) | [Typescript](Questions/TS%20Solutions/SnakesAndLadder/main.ts) |
 | [In Memory KV Store](Questions/ProblemStatements/InMemoryKeyValueStore.md) | [Theory](Questions/TS%20Solutions/InMemoryKeyValueStore/Solution.md) | [Typescript](Questions/TS%20Solutions/InMemoryKeyValueStore/main.ts) |
 | [Library Management System](Questions/ProblemStatements/LMS.md) | [Theory](Questions/TS%20Solutions/LMS/Solution.md) | [Typescript](Questions/TS%20Solutions/LMS/main.ts) |
 | [In Memory Queue](Questions/ProblemStatements/InMemoryQueue.md) | [Theory](Questions/TS%20Solutions/InMemoryQueue/Solution.md) | [Typescript](Questions/TS%20Solutions/InMemoryQueue/main.ts) |
-| [Parking Lot](Questions/ProblemStatements/ParkingLot.md) | [Theory](Questions/Python%20Solutions/ParkingLot/Solution.md) | [Python](Questions/Python%20Solutions/ParkingLot/main.py) | |
+| [Parking Lot](Questions/ProblemStatements/ParkingLot.md) | [Theory](Questions/TS%20Solutions/ParkingLot/Solution.md) | [TypeScript](Questions/TS%20Solutions/ParkingLot/index.ts)<br>[Python](Questions/Python%20Solutions/ParkingLot/main.py) | |
 
 ### ToDo
 
-- [ ] Elevator System
-- [ ] Design a Parking Lot System
 - [ ] Design an Elevator System
-- [ ] Design a Library Management System
 - [ ] Design a Movie Ticket Booking System
 - [ ] Design a File System
 - [ ] Design a Chess Game

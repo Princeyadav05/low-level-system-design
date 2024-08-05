@@ -77,8 +77,8 @@ Occupied slots for <vehicle_type> on Floor <floor_no>: <comma_separated_values_o
 The above will be printed for each floor.
 ```
 
-Examples
-Sample Input
+### Examples
+#### Sample Input
 ```
 create_parking_lot PR1234 2 6
 display free_count CAR
@@ -128,7 +128,7 @@ display occupied_slots TRUCK
 exit
 ```
 
-Expected Output
+#### Expected Output
 ```
 Created parking lot with 2 floors and 6 slots per floor
 No. of free slots for CAR on Floor 1: 3
