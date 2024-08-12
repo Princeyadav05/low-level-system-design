@@ -28,6 +28,7 @@
 | [In Memory KV Store](Questions/ProblemStatements/InMemoryKeyValueStore.md) | [Theory](Questions/TS%20Solutions/InMemoryKeyValueStore/Solution.md) | [Typescript](Questions/TS%20Solutions/InMemoryKeyValueStore/main.ts) |
 | [Library Management System](Questions/ProblemStatements/LMS.md) | [Theory](Questions/TS%20Solutions/LMS/Solution.md) | [Typescript](Questions/TS%20Solutions/LMS/main.ts) |
 | [In Memory Queue](Questions/ProblemStatements/InMemoryQueue.md) | [Theory](Questions/TS%20Solutions/InMemoryQueue/Solution.md) | [Typescript](Questions/TS%20Solutions/InMemoryQueue/main.ts) |
+| [Chess](Questions/ProblemStatements/Chess.md) | [Theory](Questions/TS%20Solutions/Chess/Solution.md) | [Typescript](Questions/TS%20Solutions/Chess/main.ts) |
 | [Parking Lot](Questions/ProblemStatements/ParkingLot.md) | [Theory](Questions/TS%20Solutions/ParkingLot/Solution.md) | [TypeScript](Questions/TS%20Solutions/ParkingLot/index.ts)<br>[Python](Questions/Python%20Solutions/ParkingLot/main.py) | |
 
 ### ToDo
@@ -35,7 +36,6 @@
 - [ ] Design an Elevator System
 - [ ] Design a Movie Ticket Booking System
 - [ ] Design a File System
-- [ ] Design a Chess Game
 - [ ] Design a Hotel Management System
 - [ ] Design an ATM Machine
 - [ ] Design a Vending Machine
