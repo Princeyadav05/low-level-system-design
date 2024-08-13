@@ -29,6 +29,7 @@
 | [Library Management System](Questions/ProblemStatements/LMS.md) | [Theory](Questions/TS%20Solutions/LMS/Solution.md) | [Typescript](Questions/TS%20Solutions/LMS/main.ts) |
 | [In Memory Queue](Questions/ProblemStatements/InMemoryQueue.md) | [Theory](Questions/TS%20Solutions/InMemoryQueue/Solution.md) | [Typescript](Questions/TS%20Solutions/InMemoryQueue/main.ts) |
 | [Chess](Questions/ProblemStatements/Chess.md) | [Theory](Questions/TS%20Solutions/Chess/Solution.md) | [Typescript](Questions/TS%20Solutions/Chess/main.ts) |
+| [Splitwise](Questions/ProblemStatements/Splitwise.md) | [Theory](Questions/TS%20Solutions/Splitwise/Solution.md) | [Typescript](Questions/TS%20Solutions/Splitwise/index.ts) |
 | [Parking Lot](Questions/ProblemStatements/ParkingLot.md) | [Theory](Questions/TS%20Solutions/ParkingLot/Solution.md) | [TypeScript](Questions/TS%20Solutions/ParkingLot/index.ts)<br>[Python](Questions/Python%20Solutions/ParkingLot/main.py) | |
 
 ### ToDo
